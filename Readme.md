@@ -15,7 +15,7 @@
 
 
 ## Foreword
-Welcome to my Fedora scripts respository. This is a collecton of scripts I have created for [KDE Plasma Fedora](https://fedoraproject.org/kde/) utilizing the [Upgrading Fedora Linux Using DNF System Plugin](https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/) commandlets. The idea was to simplify going through the list and autmote most of the processes. Each script performs its task with varying levels of sucess. I've elminitated most, but not all, errors. There is also plenty of room for improvement. I am sharing this on github because I won't be using fedora for work but I don't want my work to go to waste.
+Welcome to my Fedora scripts respository. This is a collecton of scripts I have created for [KDE Plasma Fedora](https://fedoraproject.org/kde/) utilizing the [Upgrading Fedora Linux Using DNF System Plugin](https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/) commandlets. The idea was to simplify going through the list and automate most of the processes. Each script performs its task with varying levels of sucess. I've elminitated most, but not all, errors. There is also plenty of room for improvement. I am sharing this on github because I won't be using fedora for work but I don't want my work to go to waste.
 
 ## App Updates
 Simple Bash script to check for updates and then upgrade system packages. Also Cleans up cache and autoremoves older packages.
@@ -46,7 +46,7 @@ This Script is designed to allow users to run troubleshooting steps if they run 
 
 ## Upgrade Fedora (Broken)
 My testing script for [Fedora Version Change](#fedora-version-change).
-This script started out as an upgrade script (Infact I think this was my orginial upgrade script until I made Fedora Version Change). It's purpose was much the same as Fedora Version Change expect I was testing out certian logic and in the progess, broke some of its functionality. I stopped supporting it because Fedora Version Change allows more version control than this script did. You can see my failed attempt to query fedora realeases so see what is the current version online.
+This script started out as an upgrade script (Infact I think this was my orginial upgrade script until I made Fedora Version Change). It's purpose was much the same as Fedora Version Change except I was testing out certian logic features and in the progess, broke some of its functionality. I stopped supporting it because Fedora Version Change allows more version control than this script did. You can see my failed attempt to query fedora realeases so see what is the current version online.
 
 ## Conclusion
 These scripts have enabled me to automate the OS upgrade process on Fedora for a few years now. I am putting them onto github because I need to support Ubuntu for work and Fedora was more of a Red Hat learning expirence. I might come back to fedora down the road but it depends on where life takes me. If you find errors or want to make suggestions, please feel free to do so.
